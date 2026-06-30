@@ -5,34 +5,13 @@ qui recommande des produits selon le profil de l'utilisateur (type de peau,
 problème ciblé, budget...).
 
 ## Stack technique
-
 - **Backend** : Python (FastAPI) + SQLAlchemy + PostgreSQL
 - **Frontend** : React (Vite)
 - **Chatbot** : API Claude (Anthropic) avec function calling pour rechercher
   les produits en base
 
-## Structure du projet
 
-```
-skincare-ecommerce/
-├── backend/
-│   ├── app/
-│   │   ├── models/      # Modèles SQLAlchemy
-│   │   ├── schemas/     # Schémas Pydantic
-│   │   ├── routers/     # Endpoints (auth, products, orders, chat)
-│   │   ├── services/    # Logique métier (chatbot, recherche produits)
-│   │   ├── database.py
-│   │   └── main.py
-│   ├── .env.example
-│   └── requirements.txt
-└── frontend/
-    ├── src/
-    │   ├── components/
-    │   ├── pages/
-    │   ├── api/
-    │   └── context/
-    └── package.json
-```
+
 
 ## Démarrage
 

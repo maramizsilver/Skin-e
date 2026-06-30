@@ -1,0 +1,32 @@
+.Accueil__hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.Accueil__hero h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.Accueil__hero p {
+  color: #6b6259;
+}
+
+.Accueil__filters {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.Accueil__filters select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #e0dbd4;
+  background: #fff;
+}
+
+.Accueil__error {
+  text-align: center;
+  color: #b3463f;
+}
